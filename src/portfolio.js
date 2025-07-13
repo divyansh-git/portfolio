@@ -21,21 +21,21 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'UsedCarsDelhi',
+    description:
+      'Buy and Sell old cars in delhi. Has active users online.',
+    stack: ['NextJS', 'JavaScript'],
+    sourceCode: 'https://github.com/divyansh-git/usedcarmarketplace',
+    livePreview: 'https://usedcarsdelhi.com/',
+  },
+    {
     name: 'Slack App clone',
     description:
       'Built Clone of slack app that has features like channel creation, direct messaging, adding chats to favourites, sending attachments.',
     stack: ['React', 'Firebase', 'SemanticUI'],
     sourceCode: 'https://github.com/divyansh-git/Slack-clone-2',
     livePreview: 'https://slack-react-clone-aeccf.web.app/',
-  },
-  {
-    name: 'Contact Management App',
-    description:
-      'This app allows adding new contact, editing and deletion of existing contact and display of all the contacts added.',
-    stack: ['React', 'TypeScript', 'CSS'],
-    sourceCode: 'https://github.com/divyansh-git/taiyo_assignment',
-    livePreview: 'https://taiyoassignment.netlify.app/',
-  },
+  }
 ]
 
 const skills = [
